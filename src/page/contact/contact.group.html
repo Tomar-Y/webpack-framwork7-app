@@ -1,0 +1,40 @@
+<div data-page="contact-group" class="page navbar-fixed">
+
+    <div class="navbar">
+        <div class="navbar-inner">
+            <div class="left">
+                <a href="#" id="contact_back" class="link icon-only"><i class="iconfont icon-Fill"></i></a>
+            </div>
+            <div class="center" id="first-ye">通讯录</div>
+            <div class="right">
+                <a href="#" class="open-panel link icon-only"></a>
+            </div>
+        </div>
+    </div>
+    <form data-search-list=".virtual-list" class="searchbar searchbar-init">
+        <!-- Search bar -->
+        <div class="searchbar-input">
+            <input type="search" placeholder="搜索名字"/><a href="#" class="searchbar-clear"></a>
+        </div>
+    </form>
+
+    <!-- Search bar overlay-->
+    <div class="searchbar-overlay"></div>
+
+    <div class="page-content infinite-scroll" data-distance="100">
+        <div class="content-block searchbar-not-found">
+            没有数据
+        </div>
+        <div class="list-block list-group virtual-list searchbar-found no-margin" id="contact_group">
+        </div>
+        <div id="page-bottom-cdd" class="page-bottom-cdd">
+            <span>已经到底了！</span>
+        </div>
+    </div>
+    <!-- 加载提示符 -->
+    <div class="infinite-scroll-preloader">
+        <div class="preloader"></div>
+    </div>
+
+</div>
+

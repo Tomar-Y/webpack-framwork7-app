@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="x5-orientation" content="portrait">
+		<meta name="screen-orientation" content="portrait">
+		<meta name="theme-color" content="#2196f3">
+
+		<link rel="stylesheet" href="//at.alicdn.com/t/font_399515_nutvh9ey1g2gwrk9.css" />
+		<title>邮储EIP</title>
+
+	</head>
+
+	<body class="app-hc">
+		<div class="statusbar-overlay"></div>
+		<div class="panel-overlay"></div>
+		
+		<!--登录-->
+		 <div class="login-screen bg-default">
+		    <div class="view">
+		      <div class="page">
+		        <div class="page-content login-box login-screen-content">
+
+					<div class="app-block text-center">
+						<div class="logo-box">
+							<!-- <img src="images/hmt-logo.png"/> -->
+						</div>
+					</div>
+					
+					<div class="app-block">
+						<div class="lo-input-box">
+							<h3>欢迎使用汇贸易</h3>
+							<ul>
+								<!-- Text inputs -->
+								<li>
+									<div class="item-content">
+										<div class="item-inner">
+											<div class="item-input">
+												<input type="text" name="userName" placeholder="账号">
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="item-content">
+										<div class="item-inner">
+											<div class="item-input">
+												<input type="password" name="password" placeholder="密码">
+											</div>
+										</div>
+									</div>
+								</li>
+								
+							</ul>
+							<a href="#" class="btn sign login-sign" id="loginBtn">登录</a>
+
+							<a href="#" id="wjPassword" class="close-login-screen forget">忘记密码 </a>	
+						</div>
+					</div>
+
+					<!-- <p><a id="applyUn" href="#" class="close-login-screen">企业账号申请</a></p> -->
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		
+
+		<!--
+    		描述：主要内容，主面板
+    	-->
+		<div class="views bg-default">
+			<div class="view view-main">
+				<div class="pages navbar-through toolbar-through">
+					
+
+				</div>
+
+				<div class="toolbar tabbar toolbar-bottom" id="toolbarbuttom">
+          
+				</div>
+
+				<!--  放客户 信息 BAGIN-->
+				<div class="suspend-box" data-type="none" id="material-sus">
+					<i class="iconfont icon-yonghuming1"></i>
+					<span class="default-cust">
+						<input type="text" id="custInfoBox" value="添加客户" readonly/>
+					</span>
+					<i class="iconfont icon-Fill"></i>
+					<button class="button color-orange sus-cust-btn" id="setCustomer">点我更换</button>
+				</div>
+				<!--  放客户 信息 END-->
+
+			</div>
+          </div>
+	</body>
+
+</html>

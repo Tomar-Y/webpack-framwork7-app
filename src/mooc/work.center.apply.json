@@ -1,0 +1,26 @@
+{
+    "data":{
+        "records": [
+            {
+              "name": "请假",
+              "icon": "icon-qingjia text-lightblue",
+              "url": "leave/leave"
+            },
+            {
+              "name": "邮件",
+              "icon": "icon-youjian text-green",
+              "url": "email/email"
+            },
+            {
+              "name": "公文",
+              "icon": "icon-gongwen text-yellow",
+              "url": "doc/doc"  
+            }, 
+            {
+              "name": "工作协同",
+              "icon": "icon-gongzuoxietong text-orange",
+              "url": "teamwork/teamwork"
+            }
+        ]
+    }
+}

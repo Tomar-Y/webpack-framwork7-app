@@ -1,0 +1,37 @@
+
+{
+    "toolbar": 
+    [
+        {
+            "pageName":"news-center",
+            "loadUrl":"news/news",
+            "boolbarName":"新闻中心",
+            "icon":"icon-xinwenzhongxin"
+        },
+        {
+            "pageName":"contact",
+            "loadUrl":"contact/contact.group",
+            "boolbarName":"通讯录",
+            "icon":"icon-tongxunlu"
+        },
+        {
+            "pageName":"customer-center",
+            "loadUrl":"work-center/work.center",
+            "boolbarName":"移动办公",
+            "active":"active",
+            "icon":"icon-shouji"
+        },
+        {
+            "pageName":"attence",
+            "loadUrl":"attence/attence",
+            "boolbarName":"考勤打卡",
+            "icon":"icon-kaoqin"
+        },
+        {
+            "pageName":"personcenter",
+            "loadUrl":"personcenter/personcenter",
+            "boolbarName":"我",
+            "icon":"icon-wo-copy"
+        }
+    ]
+}

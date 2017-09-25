@@ -1,0 +1,134 @@
+
+<div data-page="home" class="page navbar-fixed">
+    <div class="navbar">
+        <div class="navbar-inner">
+            <div class="left">   
+                <a href="#" id="scanBtn" class="open-panel link icon-only">
+                    <i class="iconfont icon-saoyisao"></i>
+                </a>
+            </div>
+            <div class="center">
+                汇贸易
+            </div>
+            <div class="right">
+                <a href="#" id="addCustomerBoxBtn" class="open-panel link icon-only addSpa">
+                    <i class="iconfont icon-fill addSpa"></i>
+                </a>
+            </div>
+            
+        </div>
+        <div id="addCustomerBox" class="addCustomerBox addSpa" style="display:none;">
+            <ul class="home-add">
+                <li>
+                    <a id="scanCardBtn" class="">
+                        <i  class="iconfont iconfont icon-saoyisao"></i>
+                        <span class="">扫码添加</span>
+                    </a>
+                </li>
+                <li>
+                    <a id="addcustomer" class="">
+                        <i class="iconfont icon-fabu"></i>
+                        <span class="">手动添加</span>
+                    </a>
+
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="page-content tab active">
+        <div id="iSlider-wrapper" class="home-wrapper"></div>
+
+        <div class="app-block m-b-sm m-t-sm">
+            <div class="content-block-inner">
+                <div class="home-callboard">
+                    <i class="iconfont icon-iconfonttongzhi m-r-xs m-l-sm"></i>
+                    <div id="callboard">
+                       
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="app-block">
+            <div class="content-block-inner">
+                <div class="content-warp" id="menuTempDiv">
+            
+            
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        
+        <div class="app-block m-t-sm" >
+            <div class="content-block-inner bg-transp">
+                <div class="home-goods-box" id="promotionDiv">
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    
+     <script id="menuListTemp" type="text/template7">
+       
+            {{#each menus}}
+                <div class="warp warp-md">
+                    <a class="btn-rad btn-theme" data-loadurl="{{loadUrl}}" id="">
+                        <img src="images/{{cls}}.png"/>
+                        <span class="text-default">{{menuName}}</span>
+                    </a>
+                </div>
+            {{/each}}
+        </div>
+    </script>
+    <!-- <script id="menuListTemp" type="text/template7">
+       
+            {{#each menus}}
+                <div class="warp warp-md">
+                    <a class="btn-rad btn-theme" data-loadurl="{{loadUrl}}">
+                        <i class="{{cls}}"></i>
+                        <span class="text-default">{{menuName}}</span>
+                    </a>
+                </div>
+            {{/each}}
+        </div>
+    </script> -->
+    <script id="noticeTemp" type="text/template7">
+        <ul class="" id="notice_list" style="cursor: pointer"> 
+            {{#each records}}
+            <li> 
+                <a >
+                <span class="ellip-text pull-left">公告：{{title}}</span> 
+                <span class="pull-right">{{formatDate createTime}}<i class="iconfont icon-you"></i></span>
+                </a>
+            </li> 
+            {{/each}}
+        </ul> 
+    </script>
+
+     <script id="promotionTemp" type="text/template7">
+        <h4>
+            <i class="iconfont icon-baokuan"></i>
+            {{#dict 'promotionType' 'yearMiddle'}}{{/dict}}
+        </h4>
+        <ul class="" id="promotion_list"> 
+            
+            {{#each data}}
+            <li> 
+                <a href="#" data-id="{{materialId}}" class="item-link testForThis item-content" >
+                   {{#if picUrl}}
+                        <img src="http://183.134.74.96:8083/{{#_dictSrc picUrl '_2'}}{{/_dictSrc}}" width="200" height="200">
+                        {{else}}
+                        <img src="images/material/timg.jpg" width="200" height="200">
+                    {{/if}}
+                   <p><b>{{materialName}}</b></p>
+                   <p>编号：{{materialNo}}</p>
+                   <p>颜色：{{colorName}}</p>
+                </a>
+            </li> 
+            {{/each}}
+        </ul> 
+    </script>
+     
+</div>
+

@@ -1,0 +1,13 @@
+{
+    "data":{
+        "success": true,
+        "code": 1,
+        "records": 
+            {
+                "username": "yinh",
+                "password": "123456",
+                "telephone": "15168495995"
+            }
+       
+    }
+}
