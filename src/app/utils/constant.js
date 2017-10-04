@@ -3,9 +3,9 @@
 export default {
   //AVATAR: require('../../assets/images/01.png'),
   //SERVER_URL: 'api/',
-  CAMERA: __dirname + 'bank-eip-mobile/src/assets/images/camera.png',
-  SERVER_URL: 'http://localhost:8088/bank-eip-mobile/src/mooc/',
-  TEM_URL: __dirname + 'bank-eip-mobile/src/page/',
+  CAMERA: __dirname + 'webpack-framwork7-app/src/assets/images/camera.png',
+  SERVER_URL: 'http://localhost:8088/webpack-framwork7-app/src/mooc/',
+  TEM_URL: __dirname + 'webpack-framwork7-app/src/page/',
 
   GROUPS: '',
   ZONE_PID: "33016227",
