@@ -11,7 +11,7 @@ module.exports = {
             pathRewrite: {'^/api': ''}
         },
         '/mooc': {
-            target:  __dirname + 'bank-eip-mobile/src/mooc/',
+            target:  __dirname + 'webpack-framwork7-app/src/mooc/',
             secure: false,
             changeOrigin: true
         },
