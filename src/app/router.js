@@ -10,12 +10,6 @@ import Utils from './utils/tool';
 export default {
   init(){
     var that = this;
-    // $(document).on('pageBeforeInit', (e) => {
-    //   debugger;
-    //   e.srcElement.innerHTML = Utils.renderTpl(e.srcElement.innerHTML, {});
-    //   that.pageBeforeInit(e.detail.page);
-    // });
-
     myApp.onPageBeforeInit("*", (page) => {
         this.pageBeforeInit(page);
     });
